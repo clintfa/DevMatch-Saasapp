@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.0'
 # Use Puma as the app server
-gem 'puma', '3.4.0'
+gem 'puma', '>= 3.12.4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.6'
 # Use Uglifier as compressor for JavaScript assets
@@ -25,7 +25,7 @@ gem 'jbuilder', '2.5.0'
 # gem 'capistrano-rails', group: :development
 
 # Use Twitter Bootstrap library for front-end UI and layout
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '>= 3.4.1'
 
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
@@ -34,7 +34,7 @@ gem 'font-awesome-sass', '4.6.2'
 gem 'hirb', '0.7.3'
 
 # Use Devise for user authentication
-gem 'devise', '4.2.0'
+gem 'devise', '>= 4.7.1'
 
 # Use Stripe for payment processing
 gem 'stripe', '1.48.0'
