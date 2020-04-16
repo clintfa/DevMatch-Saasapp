@@ -1,24 +1,47 @@
-# README
-[Upskill](http://upskillcourses.com) Software-as-a-Service Ruby on Rails App
-This README would normally document whatever steps are necessary to get the
-application up and running.
+DevMatch
 
-Things you may want to cover:
+A full-stack application for a fictional startup company app called DevMatch. A membership-based networking platform for developers, entrepreneurs, and investors.
 
-* Ruby version
+To view the project, click here: http://cryptic-taiga-72356.herokuapp.com/
 
-* System dependencies
+From Upskill Courses
 
-* Configuration
+Made by Clint Farley
+Features
 
-* Database creation
+    A user interface
+    Login/logout system with authentication
+    Email notifications
+    Subscription payments for premium services
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+Technologies Used
+Languages:
 
-* Deployment instructions
+    HTML
+    CSS
+    JavaScript
+    Ruby on Rails
+    PostgreSQL
 
-* ...
+Frameworks/Libaries:
+
+    BootStrap
+    SCSS
+    jQuery
+
+Gems/APIs:
+
+    Figaro
+    Devise (user profile setup)
+    PaperClip/ImageMagick (image upload handler)
+    Stripe (subscription service)
+    MailGun (email sender)
+    Hirb (database table formatting)
+
+Tools:
+
+    AWS
+    Heroku (deployment)
+    Cloud9 IDE
